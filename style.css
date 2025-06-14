@@ -411,3 +411,170 @@ body {
     color: #666;
     margin-bottom: 3rem;
     max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.support-section {
+    margin-bottom: 4rem;
+}
+
+.support-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #333;
+    border-bottom: 2px solid #007AFF;
+    padding-bottom: 0.5rem;
+}
+
+.faq-item {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.faq-item h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #007AFF;
+}
+
+.faq-item p, .faq-item ul, .faq-item ol {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.faq-item ul, .faq-item ol {
+    padding-left: 2rem;
+}
+
+.faq-item li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-info {
+    background: #f8f9fa;
+    padding: 3rem;
+    border-radius: 12px;
+}
+
+.contact-method {
+    margin-bottom: 2.5rem;
+}
+
+.contact-method h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.contact-method p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.response-info {
+    background: #e3f2fd;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid #007AFF;
+}
+
+.response-info ul {
+    margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero-stats {
+        gap: 2rem;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+    
+    .footer-links {
+        justify-content: center;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .steps {
+        grid-template-columns: 1fr;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .legal-content {
+        padding: 6rem 0 2rem;
+    }
+    
+    .legal-content h1 {
+        font-size: 2rem;
+    }
+    
+    .contact-info {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 6rem 0 3rem;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+    
+    .btn {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .btn-large {
+        padding: 1.2rem 2rem;
+        font-size: 1rem;
+    }
+    
+    .feature-card {
+        padding: 2rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+}
